@@ -11,7 +11,7 @@ RUN set -x &&\
 
 RUN set -x &&\
 	cd /armroot/debootstrap &&\
-	patch functions debootstrap_nomount.patch &&\
+	patch functions debootstrap_nomount.patch
 
 FROM scratch
 
